@@ -15,12 +15,12 @@ $ npm install --global pkg-downloads-cli
 $ pkg-downloads --help
 
   Usage
-    pkg-downloads <day|week|month> <name>
+    pkg-downloads <name> -p <day|week|month>
 
   Examples
-    $ pkg-downloads-cli week ava
+    $ pkg-downloads-cli ava -p month
     12227
-    $ pkg-downloads-cli day ponies
+    $ pkg-downloads-cli ponies -p day
     Not found
 ```
 
