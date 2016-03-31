@@ -18,9 +18,9 @@ $ pkg-downloads --help
     pkg-downloads <name> -p <day|week|month>
 
   Examples
-    $ pkg-downloads-cli ava -p month
+    $ pkg-downloads ava -p month
     12227
-    $ pkg-downloads-cli ponies -p day
+    $ pkg-downloads ponies -p day
     Not found
 ```
 
