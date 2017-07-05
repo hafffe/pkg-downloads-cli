@@ -22,13 +22,13 @@ const cli = meow(`
 	}
 });
 
-if (!cli.input.length) {
+if (!cli.input.length > 0) {
 	console.error('Expected a name');
 	process.exit(1);
 }
 
 pkgDownloads(cli.input[0], cli.flags).then(res => {
 	console.log(res);
-}).catch(function (err) {
-	console.log(err);
+}).catch(err => {
+	console.log(err.message);
 });

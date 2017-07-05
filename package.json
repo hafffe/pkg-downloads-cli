@@ -1,46 +1,46 @@
 {
-  "name": "pkg-downloads-cli",
-  "version": "2.0.0",
-  "description": "Check total downloads of a npm package",
-  "license": "MIT",
-  "repository": "alonalon/pkg-downloads-cli",
-  "author": {
-    "name": "alonalon",
-    "email": "aronhafner@gmail.com",
-    "url": "github.com/alonalon"
-  },
-  "bin": {
-    "pkg-downloads": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "npm",
-    "downloads",
-    "module",
-    "count"
-  ],
-  "dependencies": {
-    "meow": "^3.6.0",
-    "pkg-downloads": "^2.0.0"
-  },
-  "devDependencies": {
-    "ava": "^0.5.0",
-    "execa": "^0.2.2",
-    "xo": "^0.11.2"
-  },
-  "xo": {
-    "ignores": [
-      "test.js"
-    ]
-  }
+	"name": "pkg-downloads-cli",
+	"version": "2.0.0",
+	"description": "Check total downloads of a npm package",
+	"license": "MIT",
+	"repository": "alonalon/pkg-downloads-cli",
+	"author": {
+		"name": "alonalon",
+		"email": "aronhafner@gmail.com",
+		"url": "github.com/alonalon"
+	},
+	"bin": {
+		"pkg-downloads": "cli.js"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"npm",
+		"downloads",
+		"module",
+		"count"
+	],
+	"dependencies": {
+		"meow": "^3.6.0",
+		"pkg-downloads": "^2.2.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.2.2",
+		"xo": "*"
+	},
+	"xo": {
+		"ignores": [
+			"test.js"
+		]
+	}
 }
