@@ -31,7 +31,7 @@
 	],
 	"dependencies": {
 		"meow": "^3.6.0",
-		"pkg-downloads": "^2.2.0"
+		"pkg-downloads": "^2.3.0"
 	},
 	"devDependencies": {
 		"ava": "*",
