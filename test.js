@@ -3,7 +3,8 @@ import test from 'ava';
 
 test('show help screen', async t => {
 	const ret = await execa('./cli.js', ['--help']);
-	t.regexTest(/pkg-downloads <day|week|month> <name>/, ret.stdout);
+
+	t.regex(ret.stdout, /pkg-downloads <day|week|month> <name>/);
 });
 
 test('get download stats', async t => {
