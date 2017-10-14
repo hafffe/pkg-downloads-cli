@@ -31,16 +31,11 @@
 	],
 	"dependencies": {
 		"meow": "^3.6.0",
-		"pkg-downloads": "^2.3.0"
+		"pkg-downloads": "^2.3.1"
 	},
 	"devDependencies": {
 		"ava": "*",
-		"execa": "^0.2.2",
+		"execa": "^0.8.0",
 		"xo": "*"
-	},
-	"xo": {
-		"ignores": [
-			"test.js"
-		]
 	}
 }
